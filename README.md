@@ -1,3 +1,5 @@
+> Copy of https://github.com/thedevs-network/kutt for Crewly receipt testing; original license applies.
+
 <p align="center"><a href="https://kutt.to" title="kutt.to"><img src="https://raw.githubusercontent.com/thedevs-network/kutt/9d1c873897c3f5b9a1bd0c74dc5d23f2ed01f2ec/static/images/logo-github.png" alt="Kutt.to"></a></p>
 
 # Kutt.to
