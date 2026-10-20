@@ -6,6 +6,7 @@ const renders = require("./renders.routes");
 const domains = require("./domain.routes");
 const health = require("./health.routes");
 const link = require("./link.routes");
+const ping = require("./ping.routes");
 const user = require("./user.routes");
 const auth = require("./auth.routes");
 
@@ -16,6 +17,7 @@ const apiRouter = Router();
 apiRouter.use(locals.noLayout);
 apiRouter.use("/domains", domains);
 apiRouter.use("/health", health);
+apiRouter.use("/ping", ping);
 apiRouter.use("/links", link);
 apiRouter.use("/users", user);
 apiRouter.use("/auth", auth);
